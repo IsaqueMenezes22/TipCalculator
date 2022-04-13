@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    background-color: hsl(185, 41%, 84%);
+}
+
+h3,h2{
+    font-family:monospace;
+    color: rgb(138, 138, 138);
+
+}
+.header h1{
+    width: 100%;
+    align-items: center;
+    margin-top:1%
+}
+.card_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: white;
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    margin-left: auto;
+}
+.card_dados{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 23px;
+    margin-left: -23px;
+    padding: 20px;
+    border-radius: 3%;
+    
+}
+
+.card_dados input{
+    border-style: none;
+    background-color: rgb(221, 238, 240);
+    width: 78%;
+    height: 36px;
+}
+.porcentagem_gorjeta{
+    display: flex;
+    flex-direction: row;
+    max-width: 295px;
+    flex-wrap: wrap;
+}
+.porcentagem_gorjeta h3{
+    min-width: 230px;
+    
+}
+.tip{
+    
+    min-width: 72px;
+    height: 36px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+    font-family: monospace;
+    border-style: none;
+}
+.custom{
+    background-color:rgb(221, 238, 240) ;
+    color: rgb(130, 142, 151);
+}
+.card_visor{
+    display: flex;
+
+    background-color: hsl(183, 100%, 15%);
+    width: 335px;
+    height: 345px;
+    border-radius: 3%;
+    justify-content: center;
+    font-family: monospace;
+    flex-direction: column;
+}
+.valor_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    
+
+}
+.valor_total .titulo{
+    margin-left: -1px;
+    margin-right: 34px;
+}
+
+.titulo h6{
+    margin-top: -14px;
+    color: rgb(146, 146, 146);
+}
+.titulo h3{
+    color: aliceblue;
+}
+
+.valor{
+    color: rgb(104, 207, 211);
+}
+.gorjeta_total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 33px;
+}
+.reset{
+    border-style:none ;
+    background-color:hsl(183, 95%, 30%); 
+    color: white;
+    width: 300px;
+    height: 36px;
+    margin: 22px;
+    opacity: 0.5;
+    margin-top: 135px;
+}

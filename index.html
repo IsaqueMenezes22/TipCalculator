@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+  <div class="header">
+    <h2>TIP CALCULATOR</h2>
+
+  </div>
+  <div class="main">
+    <div class="card_principal">
+
+      <div class="card_dados">
+        <div class="conta">
+          <h3>Bill</h3>
+          <label></label>
+          <input type="number" name="bill" id="bill">
+        </div>
+        <div class="porcentagem_gorjeta">
+          <h3>Select Tip%</h3>
+          <button class="tip">5%</button>
+          <button class="tip">10%</button>
+          <button class="tip">15%</button>
+          <button class="tip">25%</button>
+          <button class="tip">50%</button>
+          <button class="tip custom">CUSTOM</button>
+        </div>
+        <div class="numero_de_pessoas">
+          <h3>Number of people</h3>
+          <label></label>
+          <input type="number" name="pessoas" id="pessoas">
+        </div>
+      </div>
+
+      <div class="card_visor">
+
+        <div class="gorjeta_total">
+          <div class="titulo">
+            <H3>Tip Amount</H3>
+            <h6>/person</h6>
+          </div>
+          <div class="valor"><h1>$0.00</h1></div>
+        </div>
+        <div class="valor_total">
+          <div class="titulo">
+            <H3>Toltal</H3>
+            <h6>/person</h6>
+          </div>
+          <div class="valor"><h1>$0.00</h1></div>
+        </div>
+        
+        <div class="botao">
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Isaque Menezes</a>.
+  </div>
+</body>
+</html>
